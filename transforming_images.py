@@ -10,6 +10,7 @@ def find_and_move_images(markdown_dir, image_dir):
                     content = f.read()
 
                     # Find image paths like /imgs/?.png
+                    # Change the regex repression if needed
                     image_paths = re.findall(r'imgs/([a-zA-Z0-9_ -]+\.png)', content)
                     print("image_paths: ", image_paths)
 
