@@ -1,3 +1,5 @@
+**This is a custom-built tool for me to transfer images easier**
+
 First script: `changing_path.py` is used to change the directory as its name implies.
 For example, changing the directory from `../_resources/abc.png` to `imgs/abc.png`
 
